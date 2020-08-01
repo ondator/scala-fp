@@ -1,0 +1,28 @@
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [scala-fp / Compile / run] Found inputs: C:\work\scala-fp\*.{java,scala},C:\work\scala-fp\src\main\java\**\*.{java,scala},C:\work\scala-fp\src\main\resources\**\*,C:\work\scala-fp\src\main\scala\**\*.{java,scala},C:\work\scala-fp\src\main\scala-2.13\**\*.{java,scala}[0m
+[0m[[0m[0minfo[0m] [0m[0m1. Monitoring source files for scala-fp/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala-fp / Compile / run - Accepted event for C:\work\scala-fp\src\main\scala\Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(C:\work\scala-fp\src\main\scala\Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala-fp / Compile / run - Accepted event for C:\work\scala-fp\src\main\scala\Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path C:\work\scala-fp\src\main\scala\Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(C:\work\scala-fp\src\main\scala\Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path C:\work\scala-fp\src\main\scala\Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDropping event for unmodified path C:\work\scala-fp\src\main\scala\Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path C:\work\scala-fp\src\main\scala\Main.scala. This event occurred 34 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala-fp / Compile / run - Accepted event for C:\work\scala-fp\src\main\scala\Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(C:\work\scala-fp\src\main\scala\Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path C:\work\scala-fp\src\main\scala\Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala-fp / Compile / run - Accepted event for C:\work\scala-fp\src\main\scala\Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(C:\work\scala-fp\src\main\scala\Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path C:\work\scala-fp\src\main\scala\Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala-fp / Compile / run - Accepted event for C:\work\scala-fp\src\main\scala\Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(C:\work\scala-fp\src\main\scala\Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified C:\work\scala-fp\src\main\scala\Main.scala (previous stamp: Hash(6023ad4d0af67c4113f0597398ef9ea9f19718c9), current stamp: Hash(1ebd79607359db49254dc89dbed624c8ebc03674))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: C:\work\scala-fp\src\main\scala\Main.scala -> Trigger. Returning: (Update(C:\work\scala-fp\src\main\scala\Main.scala, 2020-авг-01 21:00:42.597 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by C:\work\scala-fp\src\main\scala\Main.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(C:\work\scala-fp\src\main\scala\Main.scala, 2020-авг-01 21:00:42.597 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m2. Monitoring source files for scala-fp/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path C:\work\scala-fp\src\main\scala\Main.scala. This event occurred 2 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received input event: Run().[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received input event: Run().[0m

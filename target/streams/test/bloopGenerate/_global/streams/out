@@ -1,0 +1,4 @@
+[debug] [scala-fp-test] Classpath dependencies List()
+[debug] [scala-fp-test] Dependencies from configurations List(scala-fp)
+[debug] Bloop wrote the configuration of project 'scala-fp-test' to 'C:\work\scala-fp\.bloop\scala-fp-test.json'
+[success] Generated .bloop\scala-fp-test.json
