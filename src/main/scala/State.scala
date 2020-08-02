@@ -12,20 +12,15 @@ object Main extends App{
 
 
 package object state{
-
-sealed trait Monad[A[_]]{
-  def bind[F,T](a:A[F])(f:F => A[T]):A[T]
-}
-
+import Monad._
 final object Monad{
   implicit def StateM[S]: Monad[State[S, ?]] = new Monad[State[S, ?]]{
     def bind[F, T](a: S => (S, F))(f: F => (S => (S, T))): S => (S, T) = state => {
         val (s,o) = a(state)
         f(o)(s)
       }
+    def pure[F](a:F):S => (S, F) = state => (state, a)
     }
-
-  // def bind[B](a:Monad[State[S,A]])(f:A => B) = ???
 
   implicit class MonadOps[A[_], F](a: A[F]){
     def bind[T](f:F => A[T])(implicit m:Monad[A]):A[T] = m.bind(a)(f)
